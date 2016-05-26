@@ -1,0 +1,19 @@
+一	memcheck	内存
+	1）使用未初始化的内存
+   	2）读/写已经被释放的内存
+    	3）读/写内存越界
+    	4）读/写不恰当的内存栈空间
+    	5）内存泄漏
+    	6）使用malloc/new/new[]和free/delete/delete[]不匹配。
+	http://www.ibm.com/developerworks/cn/linux/l-cn-valgrind/index.html
+
+二	cachegrind	cache命中率
+	valgrind --tool=cachegrind ls -l
+
+三	helgrind	线程(同步问题，死锁问题)
+编译时需要带-g选项，尽量不要使用优化选项。
+
+检查C++程序时，加上 -fno-inline 它使得函数调用链很清晰
+
+四	性能分析
+	valgrind --tool=callgrind --separate-threads=yes ls -l

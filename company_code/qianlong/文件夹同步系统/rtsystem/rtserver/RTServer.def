@@ -1,0 +1,4 @@
+EXPORTS
+	GetDllVersion
+	StartWork
+	EndWork

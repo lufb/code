@@ -1,0 +1,5 @@
+DESCRIPTION	windbg DLL
+EXPORTS
+	GetDllVersion
+	DbgInstance
+	DbgRelease

@@ -1,0 +1,7 @@
+EXPORTS
+	GetDllVersion
+	StartWork
+	EndWork
+	Config
+	SetCallBack
+	ComCmd
