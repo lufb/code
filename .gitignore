@@ -1,0 +1,5 @@
+*.o
+*.swp
+*.a
+*.py[cod]
+code/study_code/learn_python/.idea
