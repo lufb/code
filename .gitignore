@@ -1,4 +1,6 @@
 *.o
+.*
+!.gitignore
 *.swp
 *.a
 *.py[cod]
