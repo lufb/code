@@ -4,4 +4,7 @@
 *.swp
 *.a
 *.py[cod]
+*.dsw
+*.ncb
+*.opt
 code/study_code/learn_python/.idea
